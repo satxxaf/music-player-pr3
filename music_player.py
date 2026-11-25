@@ -30,7 +30,7 @@ class MusicPlayer:
 
     def play(self):
         """Запускает воспроизведение. Повторный вызов ничего не меняет."""
-        self._check_not_empty()
+        # self._check_not_empty()
         self.is_playing = True
 
     def pause(self):
